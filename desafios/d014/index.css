@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    width: 680px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.col {
+    background-color: black;
+    color: white;
+    
+}
+.filme {
+    padding: 5px;
+    text-align: center;
+}
+.genero {
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}
